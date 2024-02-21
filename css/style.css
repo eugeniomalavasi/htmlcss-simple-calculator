@@ -4,4 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* COMMON */
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 900px;   
+}
+
+.container {
+    width: 300px;
+    /* debug */
+    height: 500px;
+    background-color: aqua;
+}
+
+/* HEADER */
+body header {
+    text-align: center;
+}
+
+/* BLACK SCREEN */
 
