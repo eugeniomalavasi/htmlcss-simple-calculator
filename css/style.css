@@ -16,7 +16,8 @@ body {
 .container {
     width: 300px;
     /* debug */
-    height: 500px;
+    /* height: 500px; */
+    /* /debug */
     background-color: lightgray;
     border-radius: 10px;
 }
@@ -43,3 +44,38 @@ body header {
 }
 
 /* BUTTON SECTION    */
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+
+.all_button {
+    width: 80%;
+    /* debug */
+    height: 80%;
+    background-color: #06B897;
+    display: flex;
+
+    /* justify-content: flex-end; */
+}
+
+.numbers {
+    width: 50px;
+    background-color: orange;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.symbols {
+    background-color: blue;
+    width: 50px;
+    flex-grow: 1;
+}
+
+.numbers>button {
+    background-color: gray;
+}
