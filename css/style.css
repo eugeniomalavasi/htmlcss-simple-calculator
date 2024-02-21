@@ -20,7 +20,7 @@ body {
     /* /debug */
     background-image: linear-gradient(to left, #EDEDED,#CCCCCC );
     border-radius: 10px;
-    border: 2px solid lightgray;
+    /* border: 2px solid lightgray; */
 }
 
 /* HEADER */
@@ -96,6 +96,7 @@ button {
     border-radius: 5px;
     font-family: "Roboto", Helvetica, sans-serif;
     font-size: 30px;
+    border: hidden;
 }
 
 #orange {
