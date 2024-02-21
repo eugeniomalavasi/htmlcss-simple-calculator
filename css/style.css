@@ -9,14 +9,16 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 900px;   
+    height: 900px;  
+    font-family: "seven segment", Arial, Helvetica, sans-serif ; 
 }
 
 .container {
     width: 300px;
     /* debug */
     height: 500px;
-    background-color: aqua;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
 /* HEADER */
@@ -25,4 +27,19 @@ body header {
 }
 
 /* BLACK SCREEN */
+.black_screen {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 10px 0 0;
+    border: 3px solid #06B897;
+}
 
+.screen_text {
+    color: #06B897;
+    font-size: 50px; 
+}
+
+/* BUTTON SECTION    */
