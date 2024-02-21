@@ -18,8 +18,9 @@ body {
     /* debug */
     /* height: 500px; */
     /* /debug */
-    background-color: lightgray;
+    background-image: linear-gradient(to left, #EDEDED,#CCCCCC );
     border-radius: 10px;
+    border: 1px solid lightgray;
 }
 
 /* HEADER */
@@ -55,7 +56,6 @@ body header {
     width: 80%;
     /* debug */
     height: 80%;
-    background-color: #06B897;
     display: flex;
 
     /* justify-content: flex-end; */
@@ -63,7 +63,6 @@ body header {
 
 .numbers {
     width: 50px;
-    background-color: orange;
     flex-grow: 4;
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +71,6 @@ body header {
 }
 
 .symbols {
-    background-color: blue;
     width: 50px;
     flex-grow: 1;
     display: flex;
@@ -82,13 +80,30 @@ body header {
 }
 
 .numbers>button {
-    background-color: gray;
+    background-color: #BBBBBB;
     width: 50px;
     height: 50px;
 }
 
 .symbols>button {
-    background-color: gray;
+    background-color: #77A8B0;
     width: 50px;
     height: 40px;
+    color: white;
+}
+
+button {
+    border-radius: 5px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 30px;
+}
+.orange {
+    background-color: orange;
+}
+
+.double_button {
+    flex-grow: 1;
+}
+.shadow {
+    box-shadow: 5px 10px 10px lightgray;
 }
